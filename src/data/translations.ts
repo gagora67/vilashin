@@ -173,7 +173,7 @@ export const translations: Record<Language, TranslationData> = {
     companyTagline: 'Construction, Building Reconstruction & Capital Renovation across Armenia',
     seo: {
       title: 'Vilashin LLC — Construction & Reconstruction | Kapan, Armenia',
-      description: 'Vilashin LLC - Licensed general contractor based in Kapan, working throughout Armenia. Director & 100% owner: Vilen Hakobyan. Building reconstruction, capital construction, design, and concrete works. TIN: 09428738.',
+      description: 'Vilashin LLC - Licensed general contractor based in Kapan, working throughout Armenia. Director: Vilen Hakobyan. Building reconstruction, capital construction, design, and concrete works. TIN: 09428738.',
       keywords: 'Vilashin LLC, construction Kapan, construction Armenia, building reconstruction Armenia, building reconstruction Syunik, Vilen Hakobyan, TIN 09428738, contractor Kapan Armenia',
     },
     nav: {
@@ -191,15 +191,15 @@ export const translations: Record<Language, TranslationData> = {
       regionTag: 'LICENSED GENERAL CONTRACTOR · KAPAN · ALL OF ARMENIA',
       title: 'Construction & Capital Reconstruction —',
       titleAccent: 'in Kapan and Throughout Armenia',
-      subtitle: 'Vilashin LLC is a licensed construction contractor headquartered in Kapan and working throughout Armenia. We specialize in building reconstruction, structural reinforcement, ground-up capital construction, architectural design, and concrete assembly. Director and 100% owner: Vilen Hakobyan. TIN: 09428738.',
-      directorBadge: 'Director & 100% Owner: Vilen Hakobyan',
+      subtitle: 'Vilashin LLC is a licensed construction contractor headquartered in Kapan and working throughout Armenia. We specialize in building reconstruction, structural reinforcement, ground-up capital construction, architectural design, and concrete assembly. Director: Vilen Hakobyan. TIN: 09428738.',
+      directorBadge: 'Director: Vilen Hakobyan',
       callDirect: '+374 93 997055',
       emailDirect: 'contact@vilashin.com',
       viewServices: 'Explore Services',
       metrics: [
         { val: '09428738', label: 'TIN / Tax ID', desc: 'Syunik Regional Registry' },
         { val: 'Kapan', label: 'Headquarters & Base', desc: '3/3 R. Minasyan St., 3304' },
-        { val: '100%', label: 'Vilen Hakobyan', desc: 'Sole Owner & Director' },
+        { val: 'Director', label: 'Vilen Hakobyan', desc: 'Head of the Company' },
         { val: 'Tenders', label: 'State & Municipal', desc: 'Projects Across Armenia' },
       ],
     },
@@ -207,9 +207,9 @@ export const translations: Record<Language, TranslationData> = {
       badge: 'OFFICIAL CORPORATE CREDENTIALS',
       heading: 'Vilashin LLC — Verified Registry Information',
       subheading: 'Complete legal transparency for our clients and municipal partners across Armenia.',
-      directorLabel: 'Managing Director & 100% Shareholder',
+      directorLabel: 'Director',
       directorValue: 'Vilen Hakobyan',
-      directorDesc: 'Sole corporate owner and active executive director',
+      directorDesc: 'Director of Vilashin LLC',
       tinLabel: 'Tax Identification Number (TIN / ՀՎՀՀ)',
       tinValue: '09428738',
       regAddressLabel: 'Legal & Operational Address',
@@ -377,12 +377,12 @@ export const translations: Record<Language, TranslationData> = {
       badge: 'ABOUT VILASHIN LLC',
       heading: 'Dedicated Construction Expertise Across Armenia',
       subheading: 'Rooted in Kapan, we deliver high-integrity construction and renovation backed by direct executive oversight.',
-      p1: 'Vilashin LLC is officially incorporated in Kapan, Syunik Province, Armenia at 3/3 R. Minasyan St. (Postal Code: 3304, TIN: 09428738). The sole 100% shareholder and managing director is Vilen Hakobyan.',
+      p1: 'Vilashin LLC is officially incorporated in Kapan, Syunik Province, Armenia at 3/3 R. Minasyan St. (Postal Code: 3304, TIN: 09428738). The director of the company is Vilen Hakobyan.',
       p2: 'Our key field of operation is the reconstruction and capital renovation of buildings, alongside architectural design, ground-up capital construction, earthworks, concrete works, and roofing.',
       directorQuote: '"Our commitment in Kapan and across Armenia is to construct and renovate with genuine durability so that every building withstands the test of time and mountain weather."',
       directorQuoteAuthor: 'Vilen Hakobyan',
-      directorQuoteRole: 'Director & 100% Owner of Vilashin LLC',
-      directorPhotoAlt: 'Vilen Hakobyan, Director and 100% owner of Vilashin LLC, Kapan, Armenia',
+      directorQuoteRole: 'Director of Vilashin LLC',
+      directorPhotoAlt: 'Vilen Hakobyan, Director of Vilashin LLC, Kapan, Armenia',
       pillars: [
         {
           title: 'Direct Accountability from Kapan',
@@ -404,7 +404,7 @@ export const translations: Record<Language, TranslationData> = {
       items: [
         {
           question: 'Who owns and manages Vilashin LLC?',
-          answer: 'Vilashin LLC is 100% owned and directed by Vilen Hakobyan. The firm is officially registered in Kapan, Syunik Province (3/3 R. Minasyan St., TIN: 09428738).',
+          answer: 'The director of Vilashin LLC is Vilen Hakobyan. The firm is officially registered in Kapan, Syunik Province (3/3 R. Minasyan St., TIN: 09428738).',
         },
         {
           question: 'What is the primary operational specialty of Vilashin LLC?',
@@ -422,7 +422,7 @@ export const translations: Record<Language, TranslationData> = {
       subheading: 'For project consultations, site assessments, and tender inquiries, contact management directly or visit our office in Kapan.',
       executiveTitle: 'Direct Executive Communication',
       directorName: 'Vilen Hakobyan',
-      directorRole: 'Director & 100% Owner of Vilashin LLC',
+      directorRole: 'Director of Vilashin LLC',
       phone: '+374 93 997055',
       emails: {
         general: 'contact@vilashin.com',
@@ -444,7 +444,7 @@ export const translations: Record<Language, TranslationData> = {
     },
     footer: {
       tagline: 'Vilashin LLC — Construction, Building Reconstruction & Capital Renovation in Kapan and throughout Armenia.',
-      director: 'Director: Vilen Hakobyan (100% Shareholder)',
+      director: 'Director: Vilen Hakobyan',
       tin: 'TIN: 09428738',
       rights: 'All rights reserved.',
       kapanSyunik: 'Kapan, Syunik Province, Armenia',
@@ -477,15 +477,15 @@ export const translations: Record<Language, TranslationData> = {
       regionTag: 'ԼԻՑԵՆԶԱՎՈՐՎԱԾ ԿԱՊԱԼԱՌՈՒ · Ք. ԿԱՊԱՆ · ՈՂՋ ՀԱՅԱՍՏԱՆ',
       title: 'Շինարարական և վերակառուցման աշխատանքներ՝',
       titleAccent: 'Կապանում և ողջ Հայաստանում',
-      subtitle: '«ՎԻԼԱՇԻՆ» ՍՊԸ-ն Կապանում գրանցված լիցենզավորված շինարարական կազմակերպություն է, որն աշխատում է ողջ Հայաստանում: Մասնագիտացված ենք շենքերի հիմնանորոգման, վերակառուցման, կապիտալ շինարարության և բետոնային աշխատանքների ոլորտում: Ընկերության տնօրեն և 100% սեփականատեր՝ Վիլեն Հակոբյան:',
-      directorBadge: 'Տնօրեն և 100% սեփականատեր՝ Վիլեն Հակոբյան',
+      subtitle: '«ՎԻԼԱՇԻՆ» ՍՊԸ-ն Կապանում գրանցված լիցենզավորված շինարարական կազմակերպություն է, որն աշխատում է ողջ Հայաստանում: Մասնագիտացված ենք շենքերի հիմնանորոգման, վերակառուցման, կապիտալ շինարարության և բետոնային աշխատանքների ոլորտում: Ընկերության տնօրեն՝ Վիլեն Հակոբյան:',
+      directorBadge: 'Տնօրեն՝ Վիլեն Հակոբյան',
       callDirect: '+374 93 997055',
       emailDirect: 'contact@vilashin.com',
       viewServices: 'Դիտել ծառայությունները',
       metrics: [
         { val: '09428738', label: 'ՀՎՀՀ (Պետական ռեգիստր)', desc: 'Սյունիքի մարզային հաշվառում' },
         { val: 'Կապան', label: 'Գրանցման և գործունեության վայր', desc: 'Ռ. Մինասյան փող., 3/3 շենք' },
-        { val: '100%', label: 'Վիլեն Հակոբյան', desc: 'Միանձնյա սեփականատեր և տնօրեն' },
+        { val: 'Տնօրեն', label: 'Վիլեն Հակոբյան', desc: 'Ընկերության ղեկավար' },
         { val: 'Տենդերներ', label: 'Պետական գնումներ', desc: 'Ծրագրեր ողջ Հայաստանում' },
       ],
     },
@@ -493,9 +493,9 @@ export const translations: Record<Language, TranslationData> = {
       badge: 'ՊԱՇՏՈՆԱԿԱՆ ՌԵԳԻՍՏՐԻ ՏՎՅԱԼՆԵՐ',
       heading: '«ՎԻԼԱՇԻՆ» ՍՊԸ — Իրավաբանական տվյալներ և ղեկավարություն',
       subheading: 'Թափանցիկ տվյալներ Կապանում գրանցված կապալառուի մասին: Բացառապես ստուգված պետական ռեկվիզիտներ:',
-      directorLabel: 'Տնօրեն և 100% բաժնետեր',
+      directorLabel: 'Տնօրեն',
       directorValue: 'Վիլեն Հակոբյան',
-      directorDesc: 'Ընկերության հիմնադիր և անմիջական ղեկավար',
+      directorDesc: '«ՎԻԼԱՇԻՆ» ՍՊԸ տնօրեն',
       tinLabel: 'ՀՎՀՀ (Հարկ վճարողի հաշվառման համար)',
       tinValue: '09428738',
       regAddressLabel: 'Իրավաբանական և փաստացի հասցե',
@@ -663,12 +663,12 @@ export const translations: Record<Language, TranslationData> = {
       badge: 'ԸՆԿԵՐՈՒԹՅԱՆ ՄԱՍԻՆ',
       heading: '«ՎԻԼԱՇԻՆ» ՍՊԸ — հուսալի շինարար ողջ Հայաստանում',
       subheading: 'Հիմնադրված լինելով Կապան քաղաքում՝ ընկերությունն ապահովում է պատասխանատու և որակյալ շինարարություն:',
-      p1: '«ՎԻԼԱՇԻՆ» ՍՊԸ-ն գրանցված է ՀՀ Սյունիքի մարզի Կապան քաղաքում (հասցե՝ Ռ. Մինասյան փող., 3/3 շենք, ՀՎՀՀ՝ 09428738): Ընկերության 100% սեփականատերն ու տնօրենն է Վիլեն Հակոբյանը:',
+      p1: '«ՎԻԼԱՇԻՆ» ՍՊԸ-ն գրանցված է ՀՀ Սյունիքի մարզի Կապան քաղաքում (հասցե՝ Ռ. Մինասյան փող., 3/3 շենք, ՀՎՀՀ՝ 09428738): Ընկերության տնօրենն է Վիլեն Հակոբյանը:',
       p2: 'Մեր հիմնական մասնագիտացումն է շենքերի և շինությունների վերակառուցումն ու հիմնանորոգումը, ինչպես նաև անհատական ու հասարակական շենքերի կապիտալ շինարարությունը, նախագծումը, հողային, բետոնային և տանիքածածկման աշխատանքները:',
       directorQuote: '«Մեր նպատակն է Կապանում և ողջ Հայաստանում կառուցել և նորոգել այնպես, որ յուրաքանչյուր շենք ծառայի տասնամյակներ՝ ապահովելով ամրություն և անվտանգություն»:',
       directorQuoteAuthor: 'Վիլեն Հակոբյան',
-      directorQuoteRole: '«ՎԻԼԱՇԻՆ» ՍՊԸ տնօրեն և 100% սեփականատեր',
-      directorPhotoAlt: 'Վիլեն Հակոբյան՝ «ՎԻԼԱՇԻՆ» ՍՊԸ տնօրեն և 100% սեփականատեր, ք. Կապան',
+      directorQuoteRole: '«ՎԻԼԱՇԻՆ» ՍՊԸ տնօրեն',
+      directorPhotoAlt: 'Վիլեն Հակոբյան՝ «ՎԻԼԱՇԻՆ» ՍՊԸ տնօրեն, ք. Կապան',
       pillars: [
         {
           title: 'Ուղիղ պատասխանատվություն Կապանից',
@@ -689,8 +689,8 @@ export const translations: Record<Language, TranslationData> = {
       heading: 'Կարևոր հարցեր «ՎԻԼԱՇԻՆ» ՍՊԸ-ի վերաբերյալ',
       items: [
         {
-          question: 'Ո՞վ է «ՎԻԼԱՇԻՆ» ՍՊԸ-ի ղեկավարն ու սեփականատերը:',
-          answer: '«ՎԻԼԱՇԻՆ» ՍՊԸ-ի տնօրենը և 100% բաժնեմասի սեփականատերն է Վիլեն Հակոբյանը: Ընկերությունը գրանցված է քաղաք Կապանում (Ռ. Մինասյան 3/3, ՀՎՀՀ՝ 09428738):',
+          question: 'Ո՞վ է «ՎԻԼԱՇԻՆ» ՍՊԸ-ի ղեկավարը:',
+          answer: '«ՎԻԼԱՇԻՆ» ՍՊԸ-ի տնօրենն է Վիլեն Հակոբյանը: Ընկերությունը գրանցված է քաղաք Կապանում (Ռ. Մինասյան 3/3, ՀՎՀՀ՝ 09428738):',
         },
         {
           question: 'Ո՞րն է ընկերության հիմնական գործունեության պրոֆիլը:',
@@ -708,7 +708,7 @@ export const translations: Record<Language, TranslationData> = {
       subheading: 'Շինարարական և նորոգման հարցերով կարող եք զանգահարել անմիջապես տնօրինությանը կամ այցելել մեր գրասենյակ Կապանում:',
       executiveTitle: 'Ուղիղ կապ ղեկավարության հետ',
       directorName: 'Վիլեն Հակոբյան',
-      directorRole: '«ՎԻԼԱՇԻՆ» ՍՊԸ տնօրեն և 100% սեփականատեր',
+      directorRole: '«ՎԻԼԱՇԻՆ» ՍՊԸ տնօրեն',
       phone: '+374 93 997055',
       emails: {
         general: 'contact@vilashin.com',
@@ -730,7 +730,7 @@ export const translations: Record<Language, TranslationData> = {
     },
     footer: {
       tagline: '«ՎԻԼԱՇԻՆ» ՍՊԸ — Շինարարություն, շենքերի վերակառուցում և հիմնանորոգում Կապանում և ողջ Հայաստանում:',
-      director: 'Տնօրեն՝ Վիլեն Հակոբյան (100% բաժնեմաս)',
+      director: 'Տնօրեն՝ Վիլեն Հակոբյան',
       tin: 'ՀՎՀՀ՝ 09428738',
       rights: 'Բոլոր իրավունքները պաշտպանված են:',
       kapanSyunik: 'ք. Կապան, Սյունիքի մարզ, Հայաստան',
@@ -745,7 +745,7 @@ export const translations: Record<Language, TranslationData> = {
     companyTagline: 'Строительство, реконструкция и капитальный ремонт зданий по всей Армении',
     seo: {
       title: 'ООО «ВИЛАШИН» — строительство и реконструкция | Капан, Армения',
-      description: 'ООО «ВИЛАШИН» (Vilashin LLC) - Официальный лицензированный подрядчик из г. Капан, работаем по всей Армении. Руководитель: Вилен Акопян (100% собственник). Реконструкция, капремонт, строительство, проектирование. ИНН: 09428738.',
+      description: 'ООО «ВИЛАШИН» (Vilashin LLC) - Официальный лицензированный подрядчик из г. Капан, работаем по всей Армении. Директор: Вилен Акопян. Реконструкция, капремонт, строительство, проектирование. ИНН: 09428738.',
       keywords: 'ООО ВИЛАШИН, Vilashin LLC, строительство Капан, строительство Армения, реконструкция Сюник, Вилен Акопян, ИНН 09428738, капремонт Капан Армения',
     },
     nav: {
@@ -763,15 +763,15 @@ export const translations: Record<Language, TranslationData> = {
       regionTag: 'ЛИЦЕНЗИРОВАННЫЙ ПОДРЯДЧИК · Г. КАПАН · ВСЯ АРМЕНИЯ',
       title: 'Строительные работы и реконструкция —',
       titleAccent: 'в Капане и по всей Армении',
-      subtitle: 'ООО «ВИЛАШИН» (Vilashin LLC) — лицензированная строительная компания из Капана, работающая по всей Армении. Наш основной профиль — реконструкция и капитальный ремонт зданий, а также капитальное строительство с нуля, проектирование, земляные, бетонные и кровельные работы. Руководитель и 100% собственник: Вилен Акопян. ИНН: 09428738.',
-      directorBadge: 'Руководитель и 100% собственник: Вилен Акопян',
+      subtitle: 'ООО «ВИЛАШИН» (Vilashin LLC) — лицензированная строительная компания из Капана, работающая по всей Армении. Наш основной профиль — реконструкция и капитальный ремонт зданий, а также капитальное строительство с нуля, проектирование, земляные, бетонные и кровельные работы. Директор: Вилен Акопян. ИНН: 09428738.',
+      directorBadge: 'Директор: Вилен Акопян',
       callDirect: '+374 93 997055',
       emailDirect: 'contact@vilashin.com',
       viewServices: 'Перейти к услугам',
       metrics: [
         { val: '09428738', label: 'ИНН / ՀՎՀՀ (Госреестр)', desc: 'Налоговый орган Сюникской области' },
         { val: 'Капан', label: 'Регистрация и фактическая база', desc: 'ул. Р. Минасяна, д. 3/3, 3304' },
-        { val: '100%', label: 'Вилен Акопян', desc: 'Единоличный собственник и директор' },
+        { val: 'Директор', label: 'Вилен Акопян', desc: 'Руководитель компании' },
         { val: 'Тендеры', label: 'Государственные закупки', desc: 'Проекты по всей Армении' },
       ],
     },
@@ -779,9 +779,9 @@ export const translations: Record<Language, TranslationData> = {
       badge: 'ОФИЦИАЛЬНЫЙ ДАТА-ПАК КОМПАНИИ',
       heading: 'ООО «ВИЛАШИН» — Проверенные регистрационные данные',
       subheading: 'Точные сведения из Государственного реестра юридических лиц РА без вымысла.',
-      directorLabel: 'Руководитель и 100% собственник',
+      directorLabel: 'Директор',
       directorValue: 'Вилен Акопян (Vilen Hakobyan)',
-      directorDesc: 'Единоличный учредитель и генеральный директор',
+      directorDesc: 'Директор ООО «ВИЛАШИН»',
       tinLabel: 'ИНН (TIN / ՀՎՀՀ)',
       tinValue: '09428738',
       regAddressLabel: 'Юридический и фактический адрес',
@@ -949,12 +949,12 @@ export const translations: Record<Language, TranslationData> = {
       badge: 'О КОМПАНИИ',
       heading: 'ООО «ВИЛАШИН» — строительный подрядчик по всей Армении',
       subheading: 'Надежный подрядчик с базой в Капане, работающий по всей Армении под личным управлением руководителя.',
-      p1: 'ООО «ВИЛАШИН» (Vilashin LLC) зарегистрировано в городе Капан Сюникской области Республики Армения по адресу: ул. Р. Минасяна, д. 3/3 (ИНН: 09428738). Руководитель и 100% собственник компании — Вилен Акопян (Vilen Hakobyan).',
+      p1: 'ООО «ВИЛАШИН» (Vilashin LLC) зарегистрировано в городе Капан Сюникской области Республики Армения по адресу: ул. Р. Минасяна, д. 3/3 (ИНН: 09428738). Директор компании — Вилен Акопян (Vilen Hakobyan).',
       p2: 'Основной профиль компании — реконструкция и капитальный ремонт зданий. Также компания осуществляет архитектурно-строительное проектирование, капитальное строительство жилых домов и нежилых зданий с нуля, а также земляные, бетонные (фундаменты, стены) и кровельные работы в Капане и по всей Армении.',
       directorQuote: '«Мы строим и ремонтируем в родном Сюнике и по всей Армении добросовестно и качественно, отвечая за каждый забитый анкер и каждый кубометр уложенного бетона».',
       directorQuoteAuthor: 'Вилен Акопян',
-      directorQuoteRole: 'Руководитель и 100% собственник ООО «ВИЛАШИН»',
-      directorPhotoAlt: 'Вилен Акопян — директор и 100% собственник ООО «ВИЛАШИН», г. Капан',
+      directorQuoteRole: 'Директор ООО «ВИЛАШИН»',
+      directorPhotoAlt: 'Вилен Акопян — директор ООО «ВИЛАШИН», г. Капан',
       pillars: [
         {
           title: 'Прямая ответственность из Капана',
@@ -966,7 +966,7 @@ export const translations: Record<Language, TranslationData> = {
         },
         {
           title: 'Личный контроль Вилена Акопяна',
-          desc: '100% собственник лично контролирует соблюдение сметы, технологий и сроков на каждом объекте.',
+          desc: 'Директор лично контролирует соблюдение сметы, технологий и сроков на каждом объекте.',
         },
       ],
     },
@@ -975,8 +975,8 @@ export const translations: Record<Language, TranslationData> = {
       heading: 'Часто задаваемые вопросы о компании',
       items: [
         {
-          question: 'Кто руководит компанией ООО «ВИЛАШИН» и кто собственник?',
-          answer: 'Руководителем и единственным (100%) собственником ООО «ВИЛАШИН» является Вилен Акопян (Vilen Hakobyan). Компания зарегистрирована в г. Капан, ул. Р. Минасяна, д. 3/3, ИНН: 09428738.',
+          question: 'Кто руководит компанией ООО «ВИЛАШИН»?',
+          answer: 'Директор ООО «ВИЛАШИН» — Вилен Акопян (Vilen Hakobyan). Компания зарегистрирована в г. Капан, ул. Р. Минасяна, д. 3/3, ИНН: 09428738.',
         },
         {
           question: 'Какой основной профиль деятельности вашей компании?',
@@ -994,7 +994,7 @@ export const translations: Record<Language, TranslationData> = {
       subheading: 'Для обсуждения вопросов строительства, реконструкции или тендеров свяжитесь напрямую с руководством компании:',
       executiveTitle: 'Прямая связь с руководством',
       directorName: 'Вилен Акопян (Vilen Hakobyan)',
-      directorRole: 'Руководитель и 100% собственник ООО «ВИЛАШИН»',
+      directorRole: 'Директор ООО «ВИЛАШИН»',
       phone: '+374 93 997055',
       emails: {
         general: 'contact@vilashin.com',
@@ -1016,7 +1016,7 @@ export const translations: Record<Language, TranslationData> = {
     },
     footer: {
       tagline: 'ООО «ВИЛАШИН» — Строительство, реконструкция и капитальный ремонт зданий в Капане и по всей Армении.',
-      director: 'Руководитель: Вилен Акопян (100% собственник)',
+      director: 'Директор: Вилен Акопян',
       tin: 'ИНН: 09428738',
       rights: 'Все права защищены.',
       kapanSyunik: 'г. Капан, Сюникская область, Армения',

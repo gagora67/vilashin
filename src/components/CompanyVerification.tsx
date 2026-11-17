@@ -41,7 +41,7 @@ export const CompanyVerification: React.FC<CompanyVerificationProps> = ({ t }) =
           {/* Grid of Verified Credentials */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
             
-            {/* Director & 100% Owner: Vilen Hakobyan */}
+            {/* Director: Vilen Hakobyan */}
             <div className="liquid-glass-card rounded-2xl p-5 border border-white/10 flex flex-col justify-between">
               <div>
                 <div className="flex items-center justify-between mb-2">
