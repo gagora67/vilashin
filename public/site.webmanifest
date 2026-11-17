@@ -1,0 +1,14 @@
+{
+  "name": "Vilashin LLC",
+  "short_name": "Vilashin",
+  "description": "Construction & reconstruction contractor — Kapan, Armenia",
+  "start_url": "/",
+  "scope": "/",
+  "display": "browser",
+  "background_color": "#07090e",
+  "theme_color": "#07090e",
+  "icons": [
+    { "src": "/brand/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/brand/vilashin-logo-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}

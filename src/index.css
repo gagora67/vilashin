@@ -1,0 +1,243 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  :root {
+    --font-sans: 'Outfit', 'Plus Jakarta Sans', 'Noto Sans Armenian', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+  }
+
+  html {
+    font-family: var(--font-sans);
+    scroll-behavior: smooth;
+    color-scheme: dark;
+  }
+
+  body {
+    background-color: #07090e;
+    color: #f1f5f9;
+    overflow-x: hidden;
+    letter-spacing: -0.01em;
+  }
+}
+
+/* Apple iOS / VisionOS Grade Liquid Glass Architecture */
+.liquid-glass-nav {
+  background: rgba(13, 17, 27, 0.72);
+  backdrop-filter: blur(28px) saturate(210%);
+  -webkit-backdrop-filter: blur(28px) saturate(210%);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  box-shadow: 
+    0 16px 40px -12px rgba(0, 0, 0, 0.5),
+    inset 0 1px 1px 0 rgba(255, 255, 255, 0.35),
+    inset 0 -1px 1px 0 rgba(0, 0, 0, 0.4);
+}
+
+.liquid-glass {
+  background: rgba(15, 21, 34, 0.62);
+  backdrop-filter: blur(32px) saturate(200%);
+  -webkit-backdrop-filter: blur(32px) saturate(200%);
+  border: 1px solid rgba(255, 255, 255, 0.13);
+  box-shadow: 
+    0 24px 50px -15px rgba(0, 0, 0, 0.55),
+    inset 0 1px 1.5px 0 rgba(255, 255, 255, 0.3),
+    inset 0 -1px 1px 0 rgba(0, 0, 0, 0.4);
+}
+
+.liquid-glass-card {
+  position: relative;
+  background: linear-gradient(
+    145deg,
+    rgba(255, 255, 255, 0.08) 0%,
+    rgba(255, 255, 255, 0.02) 45%,
+    rgba(255, 255, 255, 0.04) 100%
+  );
+  backdrop-filter: blur(24px) saturate(190%);
+  -webkit-backdrop-filter: blur(24px) saturate(190%);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  box-shadow: 
+    0 20px 40px -12px rgba(0, 0, 0, 0.45),
+    inset 0 1px 1.2px 0 rgba(255, 255, 255, 0.28);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  overflow: hidden;
+}
+
+.liquid-glass-card:hover {
+  transform: translateY(-2px);
+  border-color: rgba(255, 255, 255, 0.25);
+  box-shadow: 
+    0 28px 55px -12px rgba(0, 0, 0, 0.6),
+    0 0 25px rgba(245, 158, 11, 0.12),
+    inset 0 1px 2px 0 rgba(255, 255, 255, 0.45);
+}
+
+.liquid-glass-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 200%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(255, 255, 255, 0.07) 50%,
+    transparent 100%
+  );
+  transform: skewX(-20deg);
+  transition: 0.8s ease;
+  pointer-events: none;
+}
+
+.liquid-glass-card:hover::before {
+  left: 100%;
+}
+
+/* iOS Style Pill & Control Surfaces */
+.liquid-pill {
+  background: rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  box-shadow: inset 0 1px 1px 0 rgba(255, 255, 255, 0.25);
+}
+
+.liquid-pill-active {
+  background: rgba(245, 158, 11, 0.22);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(245, 158, 11, 0.5);
+  box-shadow: 
+    0 4px 14px rgba(245, 158, 11, 0.25),
+    inset 0 1px 1px 0 rgba(255, 255, 255, 0.4);
+}
+
+.liquid-btn-primary {
+  position: relative;
+  background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+  color: #080a0f;
+  font-weight: 700;
+  border: 1px solid rgba(255, 255, 255, 0.45);
+  box-shadow: 
+    0 10px 28px -6px rgba(245, 158, 11, 0.4),
+    inset 0 1px 1.5px 0 rgba(255, 255, 255, 0.65);
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.liquid-btn-primary:hover {
+  background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%);
+  box-shadow: 
+    0 14px 34px -6px rgba(245, 158, 11, 0.55),
+    inset 0 1px 1.5px 0 rgba(255, 255, 255, 0.75);
+  transform: translateY(-1px);
+}
+
+.liquid-btn-secondary {
+  position: relative;
+  background: rgba(255, 255, 255, 0.07);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  color: #ffffff;
+  font-weight: 600;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 
+    0 10px 24px -8px rgba(0, 0, 0, 0.3),
+    inset 0 1px 1px 0 rgba(255, 255, 255, 0.25);
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.liquid-btn-secondary:hover {
+  background: rgba(255, 255, 255, 0.14);
+  border-color: rgba(255, 255, 255, 0.32);
+  box-shadow: 
+    0 14px 30px -8px rgba(0, 0, 0, 0.4),
+    inset 0 1px 1.5px 0 rgba(255, 255, 255, 0.35);
+  transform: translateY(-1px);
+}
+
+/* Fluid Organic Caustic Reflections in Ambient Background */
+@keyframes fluidOrbit1 {
+  0% { transform: translate(0px, 0px) scale(1); }
+  33% { transform: translate(70px, -50px) scale(1.12); }
+  66% { transform: translate(-40px, 35px) scale(0.92); }
+  100% { transform: translate(0px, 0px) scale(1); }
+}
+
+@keyframes fluidOrbit2 {
+  0% { transform: translate(0px, 0px) scale(1); }
+  33% { transform: translate(-60px, 45px) scale(0.94); }
+  66% { transform: translate(50px, -35px) scale(1.08); }
+  100% { transform: translate(0px, 0px) scale(1); }
+}
+
+.fluid-orb-1 {
+  animation: fluidOrbit1 16s ease-in-out infinite;
+}
+
+.fluid-orb-2 {
+  animation: fluidOrbit2 20s ease-in-out infinite;
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 7px;
+}
+::-webkit-scrollbar-track {
+  background: #07090e;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.16);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.28);
+}
+
+/* ── Kapan cinematic hero ───────────────────────────────── */
+.kapan-hero-img {
+  /* Cinematic grade: lifted contrast, gentle warmth, restrained saturation */
+  filter: brightness(0.82) contrast(1.12) saturate(1.08) sepia(0.12) hue-rotate(-6deg);
+  transform-origin: 55% 45%;
+  animation: kapanKenBurns 32s ease-in-out infinite alternate;
+  will-change: transform;
+}
+
+@keyframes kapanKenBurns {
+  0%   { transform: scale(1.04) translate3d(0, 0, 0); }
+  100% { transform: scale(1.12) translate3d(-1.2%, -1%, 0); }
+}
+
+/* Teal shadows / amber highlights split-tone */
+.kapan-hero-grade {
+  background:
+    radial-gradient(120% 90% at 75% 15%, rgba(255, 176, 92, 0.16) 0%, transparent 55%),
+    linear-gradient(180deg, rgba(10, 32, 44, 0.28) 0%, rgba(7, 9, 14, 0) 45%, rgba(10, 32, 44, 0.32) 100%);
+  mix-blend-mode: soft-light;
+}
+
+/* Fine film grain for a premium photographic finish */
+.kapan-hero-grain {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.5'/%3E%3C/svg%3E");
+  opacity: 0.07;
+  mix-blend-mode: overlay;
+}
+
+.kapan-welcome {
+  animation: kapanFadeUp 1.4s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+.kapan-welcome-delay {
+  animation: kapanRise 1.4s cubic-bezier(0.22, 1, 0.36, 1) 0.25s both;
+}
+@keyframes kapanRise {
+  from { opacity: 0; transform: translateY(18px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes kapanFadeUp {
+  from { opacity: 0; transform: translateY(18px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .kapan-hero-img, .kapan-welcome, .kapan-welcome-delay { animation: none; }
+}

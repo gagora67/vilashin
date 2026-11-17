@@ -1,0 +1,19 @@
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
+
+# Original source photo (optimized copies live in public/images/)
+/Vilen_Hakobyan.PNG
+/vilashin_logo.png
+
+# Local helper folder (workflow lives in .github/workflows/)
+/github-setup/
+
+# One-time upload helper (contains a token; deletes itself)
+_upload-to-github.*
+upload-log.txt
